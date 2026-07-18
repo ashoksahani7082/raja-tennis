@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raja Tennis | Official Telegram Access</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1038907278595014');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1038907278595014&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #050505; /* Deepest black for contrast */
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        /* Enhanced Animated Background Orbs - Tennis Theme */
+        .bg-orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(120px);
+            opacity: 0.35;
+            animation: float 15s infinite alternate ease-in-out;
+            z-index: -1;
+        }
+        .orb-1 {
+            width: 450px;
+            height: 450px;
+            background: #a3e635; /* Neon Tennis Lime/Yellow */
+            top: -10%;
+            left: -15%;
+            animation-delay: 0s;
+        }
+        .orb-2 {
+            width: 500px;
+            height: 500px;
+            background: #15803d; /* Deep Court Green */
+            bottom: -15%;
+            right: -20%;
+            animation-delay: -7s;
+        }
+
+        @keyframes float {
+            0% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(40px, 60px) scale(1.1); }
+            100% { transform: translate(-30px, 90px) scale(0.95); }
+        }
+
+        /* Ultra-Premium 3D Glass Card */
+        .premium-glass {
+            background: linear-gradient(145deg, rgba(20, 25, 20, 0.8) 0%, rgba(5, 10, 5, 0.9) 100%);
+            backdrop-filter: blur(30px);
+            -webkit-backdrop-filter: blur(30px);
+            border-top: 1px solid rgba(163, 230, 53, 0.2);
+            border-left: 1px solid rgba(163, 230, 53, 0.1);
+            border-right: 1px solid rgba(255, 255, 255, 0.03);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+            box-shadow: 0 40px 80px -15px rgba(0, 0, 0, 0.9),
+                        inset 0 0 40px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Rotating Energy Border around Logo - Tennis Lime/Green */
+        .spin-border {
+            position: absolute;
+            inset: -4px;
+            border-radius: 50%;
+            background: conic-gradient(from 0deg, transparent 0 280deg, #4ade80 320deg, #a3e635 360deg);
+            animation: spin 2.5s linear infinite;
+        }
+        
+        @keyframes spin {
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Rich Gradient Text */
+        .text-gradient {
+            background: linear-gradient(to right, #ffffff, #e5e7eb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .text-neon-green {
+            background: linear-gradient(to right, #a3e635, #22c55e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Premium Button Glow - Green Theme */
+        @keyframes subtle-pulse-glow {
+            0%, 100% { 
+                box-shadow: 0 0 25px 0px rgba(34, 197, 94, 0.4), inset 0 1px 1px rgba(255,255,255,0.4); 
+                transform: scale(1); 
+            }
+            50% { 
+                box-shadow: 0 0 45px 5px rgba(163, 230, 53, 0.5), inset 0 1px 1px rgba(255,255,255,0.5); 
+                transform: scale(1.02); 
+            }
+        }
+        .btn-attention {
+            animation: subtle-pulse-glow 3s infinite;
+        }
+
+        /* VIP Banner Pulse - Gold/Premium Theme */
+        @keyframes vip-pulse {
+            0%, 100% { opacity: 0.95; box-shadow: 0 0 15px rgba(234, 179, 8, 0.15); }
+            50% { opacity: 1; box-shadow: 0 0 30px rgba(234, 179, 8, 0.3); border-color: rgba(234, 179, 8, 0.4); }
+        }
+        .vip-banner {
+            animation: vip-pulse 2.5s infinite;
+        }
+
+        /* Entrance Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-enter {
+            opacity: 0;
+            animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4 md:p-6 relative">
+
+    <!-- Background Elements -->
+    <div class="fixed inset-0 w-full h-full pointer-events-none overflow-hidden">
+        <div class="bg-orb orb-1"></div>
+        <div class="bg-orb orb-2"></div>
+        <!-- Luxury Noise/Grid overlay -->
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wMykiLz48L3N2Zz4=')] opacity-70 z-[-1]"></div>
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="premium-glass w-full max-w-[420px] rounded-[32px] p-8 md:p-9 flex flex-col items-center relative z-10 transition-all">
+        
+        <!-- Avatar Section -->
+        <div class="relative mb-6 animate-enter" style="animation-delay: 0.1s;">
+            <div class="spin-border"></div>
+            <div class="absolute inset-0 rounded-full bg-green-500/20 blur-2xl"></div>
+            <div class="relative w-28 h-28 rounded-full border-[3px] border-[#111] bg-gradient-to-b from-[#1a2e1e] to-[#0a0a0a] overflow-hidden flex items-center justify-center shadow-[0_0_30px_rgba(34,197,94,0.3)]">
+                <!-- Placeholder for Logo - Updated to RT (Raja Tennis) -->
+                <span class="text-4xl font-extrabold text-white tracking-tighter text-gradient drop-shadow-lg">RT</span>
+            </div>
+            <!-- Verified Badge - Changed to Green Tone -->
+            <div class="absolute bottom-0 right-0 bg-green-500 rounded-full p-1.5 border-[2.5px] border-[#111] shadow-[0_0_15px_rgba(34,197,94,0.6)]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-white" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                </svg>
+            </div>
+        </div>
+
+        <!-- Title & Subtitle -->
+        <div class="text-center mb-8 animate-enter" style="animation-delay: 0.2s;">
+            <h1 class="text-[32px] font-extrabold tracking-tight text-white mb-2.5 drop-shadow-md">RAJA TENNIS</h1>
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 shadow-inner backdrop-blur-md">
+                <div class="w-2 h-2 rounded-full bg-green-400 animate-pulse shadow-[0_0_10px_#4ade80]"></div>
+                <span class="text-xs font-bold text-gray-200 uppercase tracking-widest">Live Signals Active</span>
+            </div>
+        </div>
+
+        <!-- Stats Grid -->
+        <div class="grid grid-cols-2 gap-4 w-full mb-7 animate-enter" style="animation-delay: 0.3s;">
+            <div class="bg-gradient-to-b from-white/[0.06] to-transparent border border-white/10 p-4 rounded-2xl text-center relative overflow-hidden group hover:border-white/20 transition-colors duration-300">
+                <div class="absolute inset-0 bg-white/5 blur-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <!-- Updated to 100K+ -->
+                <p class="text-[28px] font-extrabold text-white mb-0.5 drop-shadow-lg">100K+</p>
+                <p class="text-[11px] text-gray-400 font-bold uppercase tracking-widest">Subscribers</p>
+            </div>
+            <div class="bg-gradient-to-b from-white/[0.06] to-transparent border border-white/10 p-4 rounded-2xl text-center relative overflow-hidden group hover:border-white/20 transition-colors duration-300">
+                <div class="absolute inset-0 bg-green-500/10 blur-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <p class="text-[28px] font-extrabold text-neon-green mb-0.5 drop-shadow-[0_0_15px_rgba(34,197,94,0.3)]">100%</p>
+                <p class="text-[11px] text-gray-400 font-bold uppercase tracking-widest">Accuracy</p>
+            </div>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="w-full relative mb-7 flex justify-center z-20 animate-enter" style="animation-delay: 0.4s;">
+            <button id="joinBtn" 
+                    class="btn-attention relative overflow-hidden w-auto min-w-[300px] max-w-full bg-gradient-to-r from-[#22c55e] to-[#16a34a] hover:from-[#16a34a] hover:to-[#15803d] text-white font-extrabold text-sm sm:text-[15px] py-4 px-8 rounded-full transition-all duration-300 group flex items-center justify-center gap-2 border border-green-400/50 shadow-[0_10px_30px_rgba(34,197,94,0.4)]">
+                
+                <!-- Telegram Icon SVG -->
+                <svg id="btnIcon" class="w-5 h-5 flex-shrink-0 relative z-20 transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-12" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                </svg>
+
+                <span id="btnText" class="relative z-20 tracking-wider whitespace-nowrap drop-shadow-md">JOIN FREE TELEGRAM CHANNEL</span>
+                
+                <!-- Shimmer Animation -->
+                <div class="absolute top-0 -inset-full h-full w-1/2 z-10 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white opacity-20 group-hover:animate-[shimmer_1.5s_infinite]"></div>
+            </button>
+        </div>
+
+        <!-- Feature 1: India's No.1 Tennis Analyst -->
+        <div class="w-full mb-3 animate-enter" style="animation-delay: 0.5s;">
+            <div class="flex items-center gap-3.5 text-sm text-gray-100 bg-white/[0.04] p-3.5 rounded-xl border border-white/5 hover:bg-white/[0.08] hover:border-white/10 transition-all duration-300 transform hover:-translate-y-0.5 shadow-sm hover:shadow-md">
+                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-green-500/10 flex items-center justify-center text-green-400 border border-green-500/20 shadow-[0_0_10px_rgba(34,197,94,0.15)]">
+                    <!-- Star/Trophy Icon -->
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                </div>
+                <!-- Text updated -->
+                <span class="font-semibold tracking-wide">India's No.1 Tennis Analyst</span>
+            </div>
+        </div>
+
+        <!-- Feature 2: Daily Predictions -->
+        <div class="w-full mb-5 animate-enter" style="animation-delay: 0.6s;">
+            <div class="flex items-center gap-3.5 text-sm text-gray-100 bg-white/[0.04] p-3.5 rounded-xl border border-white/5 hover:bg-white/[0.08] hover:border-white/10 transition-all duration-300 transform hover:-translate-y-0.5 shadow-sm hover:shadow-md">
+                <div class="flex-shrink-0 w-10 h-10 rounded-full bg-green-500/10 flex items-center justify-center text-green-400 border border-green-500/20 shadow-[0_0_10px_rgba(34,197,94,0.15)]">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+                <span class="font-semibold tracking-wide">Daily Real-Time Predictions</span>
+            </div>
+        </div>
+
+        <!-- Personal Loss Recovery Session (Premium Gold Theme) -->
+        <div class="w-full text-center animate-enter" style="animation-delay: 0.7s;">
+            <div class="vip-banner inline-flex items-center justify-center gap-2 w-full py-4 px-4 rounded-xl bg-gradient-to-r from-[rgba(234,179,8,0.1)] via-[rgba(250,204,21,0.15)] to-[rgba(234,179,8,0.1)] border border-yellow-500/30 backdrop-blur-sm">
+                <span class="text-xl filter drop-shadow-md">🎾</span>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-yellow-500 font-extrabold text-[13px] sm:text-[14px] tracking-widest uppercase drop-shadow-[0_0_10px_rgba(250,204,21,0.3)]">
+                    Personal Loss Recovery Session
+                </span>
+                <span class="text-xl filter drop-shadow-md">🎾</span>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        const btn = document.getElementById('joinBtn');
+        const btnText = document.getElementById('btnText');
+        const btnIcon = document.getElementById('btnIcon');
+        let isClicked = false;
+
+        btn.addEventListener('click', (e) => {
+            e.preventDefault(); 
+            
+            if (isClicked) return; 
+            
+            isClicked = true;
+            
+            // Visual feedback
+            btn.classList.remove('btn-attention'); 
+            btnText.innerText = 'JOINING...';
+            btnText.classList.add('animate-pulse');
+            btnIcon.style.display = 'none'; 
+            
+            // Disable button styles slightly
+            btn.classList.add('opacity-90', 'cursor-wait');
+            
+            // Redirect to Telegram link
+            setTimeout(() => {
+                window.location.href = 'https://t.me/+5giLtv5J70hlNWE1';
+            }, 600); 
+        });
+    </script>
+</body>
+</html>
